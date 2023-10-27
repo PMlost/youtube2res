@@ -1,0 +1,79 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* sidbar */
+
+.navigation-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background-color: var(--background-color);
+}
+.sidebar {
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 50px;
+  background-color: #fff;
+  overflow-y: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.nav-link span {
+  padding: 0 15px;
+  vertical-align: bottom;
+  white-space: nowrap;
+  font-size: 15px;
+
+  /* //veno */
+}
+
+.nav-footer {
+  padding-right: 30px;
+  padding-left: 1rem;
+}
+.nav-footer .nav-link {
+  padding: 0;
+  padding-right: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* //Page-content */
+
+.page-content {
+  margin-left: 250px;
+  position: relative;
+}
+
+/* CARD -VIDEO- DETAILS */
+.card-video .card-video-details img {
+  border-radius: 50%;
+}
+.card-video h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.card-video div {
+  color: gray;
+  font-size: 13px;
+}
+
+.page-content a {
+  display: block;
+  text-decoration: none;
+}
